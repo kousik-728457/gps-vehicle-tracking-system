@@ -1,0 +1,68 @@
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+Secrets.h
+secrets.h
+**/Secrets.h
+**/secrets.h
+secrets/
+credentials/
+*.secret
+*.secrets
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+.npm/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Arduino / PlatformIO generated files
+.pio/
+*.elf
+*.hex
+*.bin
+*.o
+*.a
+*.d
+
+# Logs, temporary files, local databases
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.sqlite
+*.sqlite3
+*.db
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
